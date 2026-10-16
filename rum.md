@@ -1,0 +1,1 @@
+cd /home/administator/workspace/thoughtdag-mini && ls node_modules/@rollup/ 2>&1; echo "=== run ==="; npx vite --configLoader native --port 5173

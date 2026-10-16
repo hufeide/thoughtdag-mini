@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules
+.env
+
+# Build
+dist
+dist-ssr
+*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+mcp.config.json
+CLAUDE.md
+DOGFOOD.md
+PRODUCT_MAP.md
+TOPOLOGY_DIAGNOSTICS.md
+HANDOFF.md
+.local-e2e/
+
+# OS
+.DS_Store
+
+# Video render output
+video/out/
+LAUNCH.md
+launch-assets/
+video/public/bgm.mp3
+
+# local-only marketing workspace and heavy media
+video/archive/
+video/public/audio/
+/marketing/
+
+# Local previews and VitePress caches
+/local-tests/
+/tmp/
+docs/.vitepress/cache/
+
+# Context-operations benchmark: published (reference gate closed 2026-08-16,
+# report live). In-capture run dirs join as they complete.
+# npm pack output (the publish workflow packs in CI)
+dsh/*.tgz
+desktop/why.mjs
+
+# Private memory screenshots: local only, never publish
+/docs/memory-page-en.png
+/docs/memory-page-zh.png
+/docs/recall-panel-en.png
+/docs/recall-panel-zh.png
+/docs/memory-dossier-en.png
+/docs/memory-dossier-zh.png
+
+# IDE
+.idea/

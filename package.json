@@ -1,0 +1,36 @@
+{
+  "name": "thoughtdag-mini",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node --env-file-if-exists=.env server.mjs",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "^3.0.5",
+    "@tailwindcss/vite": "^4.1.18",
+    "@xyflow/react": "^12.10.0",
+    "ai": "^7.0.15",
+    "express": "^5.2.1",
+    "highlight.js": "^11.11.1",
+    "idb-keyval": "^6.2.6",
+    "katex": "^0.16.28",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
+    "tailwindcss": "^4.1.18",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  }
+}
